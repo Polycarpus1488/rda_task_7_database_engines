@@ -24,8 +24,8 @@ CREATE TABLE ProductDescription (
 
 CREATE TABLE Logs (
     ID INT AUTO_INCREMENT PRIMARY KEY,
-    Timestamp TIMESTAMP,
-    Message VARCHAR(255)
+    Timestamp TIMESTAMP NOT NULL,
+    Message VARCHAR(255) NOT NULL
 ) ENGINE = BLACKHOLE;
 
 
